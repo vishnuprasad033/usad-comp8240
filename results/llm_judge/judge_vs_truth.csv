@@ -1,0 +1,111 @@
+id,start_step,end_step,is_anomaly,true_type,true_severity,injection_id,verdict,type,confidence,rationale,judge_anomaly
+A001,26935,26970,1,dropout,high,48,anomaly,dropout,5,"Every channel including voltage reads exactly 0 for about 40 minutes while readings are normal either side, which a live meter cannot produce.",1
+A002,68361,68379,0,none,none,-1,normal,none,4,"Evening load from laundry, water heater and kitchen appliances with I/P staying near 4.2, so channels remain physically consistent.",0
+A003,16791,16806,0,none,none,-1,normal,none,4,Bursty Sunday afternoon appliance use matched in sub-meters and current; I/P stays at 4.1-4.5.,0
+A004,51524,51546,0,none,none,-1,normal,none,3,"Kitchen and water-heater cycles explain the power peaks; I/P is slightly high only at low load, which is typical.",0
+A005,43986,44010,0,none,none,-1,normal,none,4,Laundry cycles on top of a running water heater; all channels move together and I/P is steady.,0
+A006,6308,6324,0,none,none,-1,normal,none,3,The alert itself is ordinary appliance use; the perfectly linear values before it look like gap filling rather than a meter fault.,0
+A007,27749,27770,0,none,none,-1,normal,none,4,"Kitchen, laundry and water heater switching on in late afternoon with consistent current and voltage sag.",0
+A008,39980,40002,0,none,none,-1,normal,none,3,Water heater running continuously with short kitchen and laundry bursts; reactive power rise is moderate and current tracks power.,0
+A009,29869,29901,0,none,none,-1,normal,none,4,Sunday morning cooking and laundry with the water heater on; physically consistent jumps.,0
+A010,30766,30796,0,none,none,-1,normal,none,3,High but plausible weekend load explained by sub-meters; I/P remains in range.,0
+A011,22400,22442,1,dropout,high,50,anomaly,dropout,5,"All channels, including voltage, drop to exactly 0 for about an hour and then resume normal values.",1
+A012,27733,27746,0,none,none,-1,normal,none,4,Short kitchen and laundry bursts with matching current; nothing physically inconsistent.,0
+A013,60872,60892,0,none,none,-1,normal,none,4,"Laundry and water heater cycles in the evening, I/P stable around 4.2.",0
+A014,33331,33348,0,none,none,-1,normal,none,4,"Laundry programme while water heater runs, then heater switches off; consistent channels.",0
+A015,28719,28740,0,none,none,-1,normal,none,4,"Saturday morning kitchen and laundry use on top of the water heater, physically consistent.",0
+A016,22856,22871,0,none,none,-1,anomaly,decoupling,3,"Just after the alert the current falls to about 1 A while active power stays above 2 kW, giving I/P near 0.45, which breaks the physical link.",1
+A017,16497,16519,0,none,none,-1,normal,none,4,Kitchen and water heater use around midday with consistent current.,0
+A018,69115,69130,0,none,none,-1,normal,none,2,Reactive power is elevated for a few hours at night but rises and decays like a motor load rather than a steady drift; other channels are consistent.,0
+A019,19248,19270,0,none,none,-1,normal,none,4,Laundry and kitchen bursts with the water heater cycling; I/P steady.,0
+A020,38996,39009,0,none,none,-1,normal,none,4,Evening laundry and kitchen use with matching current; no inconsistency.,0
+A021,7587,7614,0,none,none,-1,normal,none,3,"Kitchen use with somewhat elevated reactive power, which explains the slightly higher I/P; plausible appliance behaviour.",0
+A022,30340,30355,0,none,none,-1,normal,none,4,Laundry cycle and water heater in the afternoon; voltage sags as expected under load.,0
+A023,41181,41222,1,dropout,high,14,anomaly,dropout,5,"All channels including voltage read 0 for about an hour overnight, then recover.",1
+A024,11298,11333,1,dropout,high,41,anomaly,dropout,5,Every channel including voltage reads 0 for about 40 minutes in the middle of a steady period.,1
+A025,5117,5158,1,dropout,high,65,anomaly,dropout,5,All channels including voltage are exactly 0 for about an hour at midday.,1
+A026,28155,28168,0,none,none,-1,normal,none,3,"The alert is a normal laundry cycle; the flat, slowly varying values afterwards look like gap filling.",0
+A027,44027,44047,0,none,none,-1,normal,none,4,Evening cooking and laundry with the water heater switching; channels consistent.,0
+A028,20848,20874,1,spike,low,52,normal,none,4,Heavy evening cooking load with matching current and voltage sag.,0
+A029,13629,13643,0,none,none,-1,normal,none,4,Water heater plus kitchen bursts on a Saturday afternoon; current and voltage respond consistently.,0
+A030,14745,14774,0,none,none,-1,normal,none,4,Sunday morning cooking and laundry cycles with consistent I/P around 4.2.,0
+A031,23708,23732,0,none,none,-1,normal,none,4,Laundry and kitchen cycles; voltage sags with load as expected.,0
+A032,32134,32185,1,dropout,high,13,anomaly,dropout,5,"All channels including voltage are exactly 0 for over an hour overnight, then resume at the prior level.",1
+A033,19688,19712,0,none,none,-1,normal,none,4,"Evening load with water heater, kitchen and laundry; physically consistent.",0
+A034,20254,20267,0,none,none,-1,normal,none,4,Laundry cycle on top of a running water heater; current tracks power.,0
+A035,35013,35080,1,dropout,high,45,anomaly,dropout,5,"Every channel including voltage reads exactly 0 for several hours, which a working meter cannot report.",1
+A036,27870,27896,0,none,none,-1,normal,none,4,Sunday cooking with the water heater on; consistent channels.,0
+A037,70744,70783,0,none,none,-1,normal,none,4,Morning laundry and water-heater use; jumps are matched across channels.,0
+A038,67657,67675,1,drift,high,54,normal,none,3,"Moderate evening load with some reactive power, consistent current; nothing implausible.",0
+A039,10623,10635,0,none,none,-1,normal,none,4,"Evening cooking with water heater on, I/P steady.",0
+A040,36040,36065,0,none,none,-1,normal,none,4,Morning start of water heater and laundry; consistent channels.,0
+A041,25758,25789,1,drift,low,9,anomaly,drift,4,"Sub_metering_3 climbs smoothly from about 24 to 34 Wh/min over hours while total active power falls, so the sub-meter drifts away from what the house draws.",1
+A042,31319,31332,0,none,none,-1,normal,none,4,Laundry programme with water heater running; current tracks power.,0
+A043,16624,16644,0,none,none,-1,normal,none,4,Saturday cooking and water heater use; consistent channels.,0
+A044,26275,26290,0,none,none,-1,normal,none,4,Kitchen use with water heater on; I/P stable.,0
+A045,9574,9586,0,none,none,-1,normal,none,4,Short kitchen burst and water heater cycle; physically consistent.,0
+A046,33720,33761,1,dropout,high,29,anomaly,dropout,5,"All channels including voltage are exactly 0 for about an hour before dawn, then return to normal.",1
+A047,31329,31348,0,none,none,-1,normal,none,4,Two laundry cycles with the water heater on; current tracks power.,0
+A048,28625,28649,0,none,none,-1,normal,none,4,Evening cooking and laundry; consistent I/P.,0
+A049,71619,71641,0,none,none,-1,normal,none,4,Morning laundry with water heater; voltage sag under load is normal.,0
+A050,21132,21154,0,none,none,-1,normal,none,4,Evening laundry and kitchen bursts; physically consistent.,0
+A051,69069,69084,0,none,none,-1,normal,none,4,Saturday afternoon kitchen and laundry use with the water heater; consistent.,0
+A052,25024,25047,0,none,none,-1,anomaly,dropout,3,"Sub_metering_3 reads exactly 0 for long stretches although its standby value elsewhere is about 0.6, suggesting that sub-meter dropped out.",1
+A053,44341,44387,1,drift,high,66,anomaly,drift,5,"Sub_metering_3 sits at 23-50 Wh/min overnight while total active power is only about 0.3-0.5 kW, which is physically impossible and points to an offset on that sub-meter.",1
+A054,41010,41033,0,none,none,-1,normal,none,4,Evening cooking and water heater cycles; current tracks power.,0
+A055,68505,68520,0,none,none,-1,normal,none,4,"Laundry cycle in early evening, consistent channels.",0
+A056,1981,2067,1,dropout,high,72,anomaly,dropout,5,"All channels including voltage read exactly 0 for many hours, then recover; a meter fault rather than real usage.",1
+A057,55319,55365,1,drift,high,61,anomaly,drift,5,"Sub_metering_3 rises smoothly from about 21 to 33 Wh/min overnight while total active power is only about 0.3 kW, so the sub-meter reports more energy than the house uses.",1
+A058,18983,19072,1,dropout,high,58,anomaly,dropout,5,"All channels including voltage read exactly 0 for many hours, then recover; a meter dropout.",1
+A059,45910,45927,0,none,none,-1,normal,none,4,Evening cooking with the water heater on; current tracks power and voltage sags normally.,0
+A060,48947,48968,0,none,none,-1,normal,none,3,"Long kitchen load at about 33 Wh/min, consistent with an oven, matched by current.",0
+A061,70815,70839,0,none,none,-1,normal,none,4,"Evening cooking and appliance bursts, physically consistent.",0
+A062,18110,18132,0,none,none,-1,normal,none,4,Water heater and kitchen load in the evening; I/P steady.,0
+A063,25572,25590,0,none,none,-1,normal,none,4,Kitchen and water heater cycles; consistent channels.,0
+A064,72229,72246,0,none,none,-1,normal,none,3,Kitchen burst and water heater cycling; zero standby on the heater circuit appears both before and during the alert so looks like normal behaviour in this period.,0
+A065,43458,43477,1,drift,high,38,normal,none,4,Water heater runs for about an hour with matching current.,0
+A066,10631,10658,0,none,none,-1,normal,none,3,Evening kitchen load and heater cycle; slightly higher I/P only at very low load afterwards.,0
+A067,36082,36104,0,none,none,-1,normal,none,4,Laundry and kitchen use with water heater on; consistent.,0
+A068,68304,68346,1,drift,high,39,anomaly,drift,5,"Sub_metering_1 climbs steadily from about 6.5 to 16.7 Wh/min with fractional values, unlike the on/off bursts kitchen appliances produce.",1
+A069,42893,42910,0,none,none,-1,normal,none,4,Evening kitchen and water heater use; physically consistent.,0
+A070,27860,27872,0,none,none,-1,normal,none,4,Sunday cooking with the water heater on; consistent channels.,0
+A071,57659,57709,1,dropout,high,2,anomaly,dropout,5,Every channel including voltage reads exactly 0 for over an hour mid-morning.,1
+A072,32754,32778,0,none,none,-1,normal,none,4,Saturday laundry and kitchen load; current tracks power.,0
+A073,73108,73131,0,none,none,-1,normal,none,3,Water heater and short kitchen and laundry bursts with a voltage sag at the peak; consistent.,0
+A074,69193,69216,1,drift,low,44,anomaly,drift,4,"Sub_metering_1 shows a slow, steady rise with fractional values from about 2 to 4.5 Wh/min instead of the usual on/off kitchen pattern.",1
+A075,20687,20717,0,none,none,-1,normal,none,4,Saturday afternoon cooking and water heater cycles; physically consistent.,0
+A076,33075,33114,1,dropout,high,28,anomaly,dropout,5,"All channels including voltage are exactly 0 for about an hour, then normal readings resume.",1
+A077,44319,44345,1,drift,high,66,anomaly,drift,5,"Sub_metering_3 ramps steadily from about 16 to 28 Wh/min while total active power is only 0.3-1.4 kW, which the sub-meter cannot exceed.",1
+A078,10858,10881,1,drift,high,37,anomaly,decoupling,5,"Current is far too low for the active power for hours (I/P about 0.6-2.4 instead of about 4.2), so current has stopped tracking power.",1
+A079,6571,6594,0,none,none,-1,normal,none,3,Kitchen and water heater use with somewhat elevated reactive power; channels remain consistent.,0
+A080,30754,30770,0,none,none,-1,normal,none,4,Water heater plus kitchen and laundry bursts; consistent.,0
+A081,31368,31389,0,none,none,-1,normal,none,4,"Evening laundry, kitchen and water heater; current tracks power.",0
+A082,60848,60866,0,none,none,-1,normal,none,4,Laundry cycles and water heater switching off; consistent channels.,0
+A083,67218,67244,0,none,none,-1,normal,none,4,Evening cooking with water heater cycle; consistent.,0
+A084,14630,14645,0,none,none,-1,normal,none,4,Saturday cooking with water heater on; I/P steady.,0
+A085,55254,55276,1,drift,high,61,anomaly,drift,5,"Sub_metering_3 holds smooth fractional values of 12-35 Wh/min that exceed what total active power (about 0.2-1.7 kW) can supply, indicating an offset on that sub-meter.",1
+A086,21698,21714,0,none,none,-1,normal,none,4,Kitchen bursts and water heater switching on in the afternoon; consistent channels.,0
+A087,44272,44312,1,drift,high,66,anomaly,drift,5,"Sub_metering_3 ramps from about 21 to 34 Wh/min with fractional values while active power is only about 1.3-1.6 kW, so the sub-meter exceeds the total.",1
+A088,16768,16785,0,none,none,-1,normal,none,4,Sunday laundry cycles with the water heater; current tracks power.,0
+A089,21808,21822,0,none,none,-1,normal,none,4,Laundry programme and water heater cycle; physically consistent.,0
+A090,22812,22835,0,none,none,-1,normal,none,4,Sunday cooking and laundry with matching current and voltage sag.,0
+A091,8722,8744,1,decoupling,high,62,anomaly,decoupling,3,"Before the alert I/P sits at about 1.3-1.8 instead of about 4.2, so current is not tracking active power.",1
+A092,38838,38851,0,none,none,-1,normal,none,4,Laundry cycle while the water heater runs; I/P steady.,0
+A093,36819,36837,0,none,none,-1,normal,none,4,Laundry and water heater use in the afternoon; consistent.,0
+A094,22707,22737,0,none,none,-1,normal,none,4,Kitchen bursts and long water heater run; current tracks power.,0
+A095,66068,66088,0,none,none,-1,normal,none,4,Evening cooking with water heater; physically consistent.,0
+A096,15636,15667,0,none,none,-1,normal,none,4,Saturday kitchen and laundry use with water heater; consistent.,0
+A097,63904,63917,0,none,none,-1,normal,none,4,Evening cooking and laundry bursts; consistent.,0
+A098,25429,25476,0,none,none,-1,normal,none,4,Long laundry and kitchen activity with the water heater on; I/P steady.,0
+A099,52396,52408,0,none,none,-1,normal,none,3,"Moderate evening load with higher reactive power, explaining the slightly raised I/P; plausible.",0
+A100,29764,29787,0,none,none,-1,normal,none,4,Saturday laundry and water heater use; consistent.,0
+A101,19823,19849,0,none,none,-1,normal,none,4,Laundry cycles and water heater with voltage sag under load; consistent.,0
+A102,36069,36084,0,none,none,-1,normal,none,4,Kitchen use with water heater on; current tracks power.,0
+A103,26316,26343,0,none,none,-1,normal,none,4,Evening laundry and water heater cycles; consistent.,0
+A104,33897,33944,0,none,none,-1,normal,none,4,Sunday cooking and laundry with water heater; I/P steady.,0
+A105,66179,66213,1,dropout,high,49,anomaly,dropout,5,All channels including voltage read exactly 0 for about 40 minutes in the afternoon.,1
+A106,67792,67804,0,none,none,-1,normal,none,4,Water heater switching on with kitchen bursts in the evening; consistent.,0
+A107,31765,31805,0,none,none,-1,normal,none,4,Saturday afternoon kitchen and laundry load with water heater; consistent.,0
+A108,18787,18807,0,none,none,-1,normal,none,4,Sunday cooking with water heater on; current tracks power.,0
+A109,25890,25910,0,none,none,-1,normal,none,3,"The alert is ordinary cooking; the smooth ramp beforehand moves power and current together, consistent with gap filling rather than a fault.",0
+A110,12255,12346,1,dropout,high,59,anomaly,dropout,5,All channels including voltage read exactly 0 for many hours overnight.,1

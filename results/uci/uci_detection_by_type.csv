@@ -1,0 +1,5 @@
+type,high,low,overall
+decoupling,0.11,0.0,0.05
+drift,0.55,0.22,0.4
+dropout,1.0,0.0,0.7
+spike,0.0,0.1,0.05

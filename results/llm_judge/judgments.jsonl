@@ -1,0 +1,110 @@
+{"id":"A001","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"Every channel including voltage reads exactly 0 for about 40 minutes while readings are normal either side, which a live meter cannot produce."}
+{"id":"A002","verdict":"normal","type":"none","confidence":4,"rationale":"Evening load from laundry, water heater and kitchen appliances with I/P staying near 4.2, so channels remain physically consistent."}
+{"id":"A003","verdict":"normal","type":"none","confidence":4,"rationale":"Bursty Sunday afternoon appliance use matched in sub-meters and current; I/P stays at 4.1-4.5."}
+{"id":"A004","verdict":"normal","type":"none","confidence":3,"rationale":"Kitchen and water-heater cycles explain the power peaks; I/P is slightly high only at low load, which is typical."}
+{"id":"A005","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry cycles on top of a running water heater; all channels move together and I/P is steady."}
+{"id":"A006","verdict":"normal","type":"none","confidence":3,"rationale":"The alert itself is ordinary appliance use; the perfectly linear values before it look like gap filling rather than a meter fault."}
+{"id":"A007","verdict":"normal","type":"none","confidence":4,"rationale":"Kitchen, laundry and water heater switching on in late afternoon with consistent current and voltage sag."}
+{"id":"A008","verdict":"normal","type":"none","confidence":3,"rationale":"Water heater running continuously with short kitchen and laundry bursts; reactive power rise is moderate and current tracks power."}
+{"id":"A009","verdict":"normal","type":"none","confidence":4,"rationale":"Sunday morning cooking and laundry with the water heater on; physically consistent jumps."}
+{"id":"A010","verdict":"normal","type":"none","confidence":3,"rationale":"High but plausible weekend load explained by sub-meters; I/P remains in range."}
+{"id":"A011","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels, including voltage, drop to exactly 0 for about an hour and then resume normal values."}
+{"id":"A012","verdict":"normal","type":"none","confidence":4,"rationale":"Short kitchen and laundry bursts with matching current; nothing physically inconsistent."}
+{"id":"A013","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry and water heater cycles in the evening, I/P stable around 4.2."}
+{"id":"A014","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry programme while water heater runs, then heater switches off; consistent channels."}
+{"id":"A015","verdict":"normal","type":"none","confidence":4,"rationale":"Saturday morning kitchen and laundry use on top of the water heater, physically consistent."}
+{"id":"A016","verdict":"anomaly","type":"decoupling","confidence":3,"rationale":"Just after the alert the current falls to about 1 A while active power stays above 2 kW, giving I/P near 0.45, which breaks the physical link."}
+{"id":"A017","verdict":"normal","type":"none","confidence":4,"rationale":"Kitchen and water heater use around midday with consistent current."}
+{"id":"A018","verdict":"normal","type":"none","confidence":2,"rationale":"Reactive power is elevated for a few hours at night but rises and decays like a motor load rather than a steady drift; other channels are consistent."}
+{"id":"A019","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry and kitchen bursts with the water heater cycling; I/P steady."}
+{"id":"A020","verdict":"normal","type":"none","confidence":4,"rationale":"Evening laundry and kitchen use with matching current; no inconsistency."}
+{"id":"A021","verdict":"normal","type":"none","confidence":3,"rationale":"Kitchen use with somewhat elevated reactive power, which explains the slightly higher I/P; plausible appliance behaviour."}
+{"id":"A022","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry cycle and water heater in the afternoon; voltage sags as expected under load."}
+{"id":"A023","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels including voltage read 0 for about an hour overnight, then recover."}
+{"id":"A024","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"Every channel including voltage reads 0 for about 40 minutes in the middle of a steady period."}
+{"id":"A025","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels including voltage are exactly 0 for about an hour at midday."}
+{"id":"A026","verdict":"normal","type":"none","confidence":3,"rationale":"The alert is a normal laundry cycle; the flat, slowly varying values afterwards look like gap filling."}
+{"id":"A027","verdict":"normal","type":"none","confidence":4,"rationale":"Evening cooking and laundry with the water heater switching; channels consistent."}
+{"id":"A028","verdict":"normal","type":"none","confidence":4,"rationale":"Heavy evening cooking load with matching current and voltage sag."}
+{"id":"A029","verdict":"normal","type":"none","confidence":4,"rationale":"Water heater plus kitchen bursts on a Saturday afternoon; current and voltage respond consistently."}
+{"id":"A030","verdict":"normal","type":"none","confidence":4,"rationale":"Sunday morning cooking and laundry cycles with consistent I/P around 4.2."}
+{"id":"A031","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry and kitchen cycles; voltage sags with load as expected."}
+{"id":"A032","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels including voltage are exactly 0 for over an hour overnight, then resume at the prior level."}
+{"id":"A033","verdict":"normal","type":"none","confidence":4,"rationale":"Evening load with water heater, kitchen and laundry; physically consistent."}
+{"id":"A034","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry cycle on top of a running water heater; current tracks power."}
+{"id":"A035","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"Every channel including voltage reads exactly 0 for several hours, which a working meter cannot report."}
+{"id":"A036","verdict":"normal","type":"none","confidence":4,"rationale":"Sunday cooking with the water heater on; consistent channels."}
+{"id":"A037","verdict":"normal","type":"none","confidence":4,"rationale":"Morning laundry and water-heater use; jumps are matched across channels."}
+{"id":"A038","verdict":"normal","type":"none","confidence":3,"rationale":"Moderate evening load with some reactive power, consistent current; nothing implausible."}
+{"id":"A039","verdict":"normal","type":"none","confidence":4,"rationale":"Evening cooking with water heater on, I/P steady."}
+{"id":"A040","verdict":"normal","type":"none","confidence":4,"rationale":"Morning start of water heater and laundry; consistent channels."}
+{"id":"A041","verdict":"anomaly","type":"drift","confidence":4,"rationale":"Sub_metering_3 climbs smoothly from about 24 to 34 Wh/min over hours while total active power falls, so the sub-meter drifts away from what the house draws."}
+{"id":"A042","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry programme with water heater running; current tracks power."}
+{"id":"A043","verdict":"normal","type":"none","confidence":4,"rationale":"Saturday cooking and water heater use; consistent channels."}
+{"id":"A044","verdict":"normal","type":"none","confidence":4,"rationale":"Kitchen use with water heater on; I/P stable."}
+{"id":"A045","verdict":"normal","type":"none","confidence":4,"rationale":"Short kitchen burst and water heater cycle; physically consistent."}
+{"id":"A046","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels including voltage are exactly 0 for about an hour before dawn, then return to normal."}
+{"id":"A047","verdict":"normal","type":"none","confidence":4,"rationale":"Two laundry cycles with the water heater on; current tracks power."}
+{"id":"A048","verdict":"normal","type":"none","confidence":4,"rationale":"Evening cooking and laundry; consistent I/P."}
+{"id":"A049","verdict":"normal","type":"none","confidence":4,"rationale":"Morning laundry with water heater; voltage sag under load is normal."}
+{"id":"A050","verdict":"normal","type":"none","confidence":4,"rationale":"Evening laundry and kitchen bursts; physically consistent."}
+{"id":"A051","verdict":"normal","type":"none","confidence":4,"rationale":"Saturday afternoon kitchen and laundry use with the water heater; consistent."}
+{"id":"A052","verdict":"anomaly","type":"dropout","confidence":3,"rationale":"Sub_metering_3 reads exactly 0 for long stretches although its standby value elsewhere is about 0.6, suggesting that sub-meter dropped out."}
+{"id":"A053","verdict":"anomaly","type":"drift","confidence":5,"rationale":"Sub_metering_3 sits at 23-50 Wh/min overnight while total active power is only about 0.3-0.5 kW, which is physically impossible and points to an offset on that sub-meter."}
+{"id":"A054","verdict":"normal","type":"none","confidence":4,"rationale":"Evening cooking and water heater cycles; current tracks power."}
+{"id":"A055","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry cycle in early evening, consistent channels."}
+{"id":"A056","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels including voltage read exactly 0 for many hours, then recover; a meter fault rather than real usage."}
+{"id":"A057","verdict":"anomaly","type":"drift","confidence":5,"rationale":"Sub_metering_3 rises smoothly from about 21 to 33 Wh/min overnight while total active power is only about 0.3 kW, so the sub-meter reports more energy than the house uses."}
+{"id":"A058","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels including voltage read exactly 0 for many hours, then recover; a meter dropout."}
+{"id":"A059","verdict":"normal","type":"none","confidence":4,"rationale":"Evening cooking with the water heater on; current tracks power and voltage sags normally."}
+{"id":"A060","verdict":"normal","type":"none","confidence":3,"rationale":"Long kitchen load at about 33 Wh/min, consistent with an oven, matched by current."}
+{"id":"A061","verdict":"normal","type":"none","confidence":4,"rationale":"Evening cooking and appliance bursts, physically consistent."}
+{"id":"A062","verdict":"normal","type":"none","confidence":4,"rationale":"Water heater and kitchen load in the evening; I/P steady."}
+{"id":"A063","verdict":"normal","type":"none","confidence":4,"rationale":"Kitchen and water heater cycles; consistent channels."}
+{"id":"A064","verdict":"normal","type":"none","confidence":3,"rationale":"Kitchen burst and water heater cycling; zero standby on the heater circuit appears both before and during the alert so looks like normal behaviour in this period."}
+{"id":"A065","verdict":"normal","type":"none","confidence":4,"rationale":"Water heater runs for about an hour with matching current."}
+{"id":"A066","verdict":"normal","type":"none","confidence":3,"rationale":"Evening kitchen load and heater cycle; slightly higher I/P only at very low load afterwards."}
+{"id":"A067","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry and kitchen use with water heater on; consistent."}
+{"id":"A068","verdict":"anomaly","type":"drift","confidence":5,"rationale":"Sub_metering_1 climbs steadily from about 6.5 to 16.7 Wh/min with fractional values, unlike the on/off bursts kitchen appliances produce."}
+{"id":"A069","verdict":"normal","type":"none","confidence":4,"rationale":"Evening kitchen and water heater use; physically consistent."}
+{"id":"A070","verdict":"normal","type":"none","confidence":4,"rationale":"Sunday cooking with the water heater on; consistent channels."}
+{"id":"A071","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"Every channel including voltage reads exactly 0 for over an hour mid-morning."}
+{"id":"A072","verdict":"normal","type":"none","confidence":4,"rationale":"Saturday laundry and kitchen load; current tracks power."}
+{"id":"A073","verdict":"normal","type":"none","confidence":3,"rationale":"Water heater and short kitchen and laundry bursts with a voltage sag at the peak; consistent."}
+{"id":"A074","verdict":"anomaly","type":"drift","confidence":4,"rationale":"Sub_metering_1 shows a slow, steady rise with fractional values from about 2 to 4.5 Wh/min instead of the usual on/off kitchen pattern."}
+{"id":"A075","verdict":"normal","type":"none","confidence":4,"rationale":"Saturday afternoon cooking and water heater cycles; physically consistent."}
+{"id":"A076","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels including voltage are exactly 0 for about an hour, then normal readings resume."}
+{"id":"A077","verdict":"anomaly","type":"drift","confidence":5,"rationale":"Sub_metering_3 ramps steadily from about 16 to 28 Wh/min while total active power is only 0.3-1.4 kW, which the sub-meter cannot exceed."}
+{"id":"A078","verdict":"anomaly","type":"decoupling","confidence":5,"rationale":"Current is far too low for the active power for hours (I/P about 0.6-2.4 instead of about 4.2), so current has stopped tracking power."}
+{"id":"A079","verdict":"normal","type":"none","confidence":3,"rationale":"Kitchen and water heater use with somewhat elevated reactive power; channels remain consistent."}
+{"id":"A080","verdict":"normal","type":"none","confidence":4,"rationale":"Water heater plus kitchen and laundry bursts; consistent."}
+{"id":"A081","verdict":"normal","type":"none","confidence":4,"rationale":"Evening laundry, kitchen and water heater; current tracks power."}
+{"id":"A082","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry cycles and water heater switching off; consistent channels."}
+{"id":"A083","verdict":"normal","type":"none","confidence":4,"rationale":"Evening cooking with water heater cycle; consistent."}
+{"id":"A084","verdict":"normal","type":"none","confidence":4,"rationale":"Saturday cooking with water heater on; I/P steady."}
+{"id":"A085","verdict":"anomaly","type":"drift","confidence":5,"rationale":"Sub_metering_3 holds smooth fractional values of 12-35 Wh/min that exceed what total active power (about 0.2-1.7 kW) can supply, indicating an offset on that sub-meter."}
+{"id":"A086","verdict":"normal","type":"none","confidence":4,"rationale":"Kitchen bursts and water heater switching on in the afternoon; consistent channels."}
+{"id":"A087","verdict":"anomaly","type":"drift","confidence":5,"rationale":"Sub_metering_3 ramps from about 21 to 34 Wh/min with fractional values while active power is only about 1.3-1.6 kW, so the sub-meter exceeds the total."}
+{"id":"A088","verdict":"normal","type":"none","confidence":4,"rationale":"Sunday laundry cycles with the water heater; current tracks power."}
+{"id":"A089","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry programme and water heater cycle; physically consistent."}
+{"id":"A090","verdict":"normal","type":"none","confidence":4,"rationale":"Sunday cooking and laundry with matching current and voltage sag."}
+{"id":"A091","verdict":"anomaly","type":"decoupling","confidence":3,"rationale":"Before the alert I/P sits at about 1.3-1.8 instead of about 4.2, so current is not tracking active power."}
+{"id":"A092","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry cycle while the water heater runs; I/P steady."}
+{"id":"A093","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry and water heater use in the afternoon; consistent."}
+{"id":"A094","verdict":"normal","type":"none","confidence":4,"rationale":"Kitchen bursts and long water heater run; current tracks power."}
+{"id":"A095","verdict":"normal","type":"none","confidence":4,"rationale":"Evening cooking with water heater; physically consistent."}
+{"id":"A096","verdict":"normal","type":"none","confidence":4,"rationale":"Saturday kitchen and laundry use with water heater; consistent."}
+{"id":"A097","verdict":"normal","type":"none","confidence":4,"rationale":"Evening cooking and laundry bursts; consistent."}
+{"id":"A098","verdict":"normal","type":"none","confidence":4,"rationale":"Long laundry and kitchen activity with the water heater on; I/P steady."}
+{"id":"A099","verdict":"normal","type":"none","confidence":3,"rationale":"Moderate evening load with higher reactive power, explaining the slightly raised I/P; plausible."}
+{"id":"A100","verdict":"normal","type":"none","confidence":4,"rationale":"Saturday laundry and water heater use; consistent."}
+{"id":"A101","verdict":"normal","type":"none","confidence":4,"rationale":"Laundry cycles and water heater with voltage sag under load; consistent."}
+{"id":"A102","verdict":"normal","type":"none","confidence":4,"rationale":"Kitchen use with water heater on; current tracks power."}
+{"id":"A103","verdict":"normal","type":"none","confidence":4,"rationale":"Evening laundry and water heater cycles; consistent."}
+{"id":"A104","verdict":"normal","type":"none","confidence":4,"rationale":"Sunday cooking and laundry with water heater; I/P steady."}
+{"id":"A105","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels including voltage read exactly 0 for about 40 minutes in the afternoon."}
+{"id":"A106","verdict":"normal","type":"none","confidence":4,"rationale":"Water heater switching on with kitchen bursts in the evening; consistent."}
+{"id":"A107","verdict":"normal","type":"none","confidence":4,"rationale":"Saturday afternoon kitchen and laundry load with water heater; consistent."}
+{"id":"A108","verdict":"normal","type":"none","confidence":4,"rationale":"Sunday cooking with water heater on; current tracks power."}
+{"id":"A109","verdict":"normal","type":"none","confidence":3,"rationale":"The alert is ordinary cooking; the smooth ramp beforehand moves power and current together, consistent with gap filling rather than a fault."}
+{"id":"A110","verdict":"anomaly","type":"dropout","confidence":5,"rationale":"All channels including voltage read exactly 0 for many hours overnight."}

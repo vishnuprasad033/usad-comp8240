@@ -1,0 +1,5 @@
+type,segments,high_severity,mean_len_steps,total_steps
+decoupling,20,9,42.4,847
+drift,20,11,88.2,1764
+dropout,20,14,37.6,752
+spike,20,10,1.6,33

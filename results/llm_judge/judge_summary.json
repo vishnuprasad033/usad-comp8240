@@ -1,0 +1,19 @@
+{
+  "items": 110,
+  "true_anomalous_alerts": 27,
+  "false_alarms": 83,
+  "TP": 24,
+  "FP": 2,
+  "FN": 3,
+  "TN": 81,
+  "accuracy": 0.9545454545454546,
+  "precision": 0.9230769230769231,
+  "recall": 0.8888888888888888,
+  "f1": 0.9056603773584906,
+  "cohen_kappa": 0.8757342973339358,
+  "type_accuracy_on_agreed_anomalies": 0.9583333333333334,
+  "usad_alert_precision": 0.24545454545454545,
+  "usad_plus_judge_precision": 0.9230769230769231,
+  "true_segments_in_alerts": 24,
+  "true_segments_kept_after_judge": 21
+}

@@ -1,0 +1,5 @@
+true_type,alerts,judged_anomaly
+decoupling,1,1.0
+drift,11,0.8181818181818182
+dropout,14,1.0
+spike,1,0.0

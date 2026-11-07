@@ -1,0 +1,9 @@
+property,value
+Source,"UCI Individual Household Electric Power Consumption (Hebrail & Berard, 2012)"
+Raw size,"2,075,259 one-minute readings, 7 channels"
+After preprocessing,"207,527 ten-minute steps"
+Train (normal only),"131,328 steps"
+Test (injected),"73,999 steps"
+Injected segments,80 (20 per type x 4 types)
+Anomaly ratio (test),4.59%
+Random seed,42
