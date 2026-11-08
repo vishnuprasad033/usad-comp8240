@@ -11,7 +11,7 @@ Detection on Multivariate Time Series** (Audibert et al., KDD 2020):
 4. **LLM-as-judge**: an LLM reviews USAD's alerts on the constructed dataset, scored against the injection log.
 
 The USAD model code (`src/usad.py`, `src/utils.py`) is copied **unchanged** from the official
-repository [manigalati/usad](https://github.com/manigalati/usad) (BSD-3, see `src/USAD_LICENSE`). Report: [`report/main.pdf`](report/main.pdf).
+repository [manigalati/usad](https://github.com/manigalati/usad) (BSD-3, see `src/USAD_LICENSE`). Report source: [`report/main.tex`](report/main.tex) (the compiled PDF is submitted on iLearn).
 Everything else is my own.
 
 ## Layout
